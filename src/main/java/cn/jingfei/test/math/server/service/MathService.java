@@ -1,4 +1,4 @@
-package cn.hrfax.test.math.server.service;
+package cn.jingfei.test.math.server.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.tool.annotation.Tool;

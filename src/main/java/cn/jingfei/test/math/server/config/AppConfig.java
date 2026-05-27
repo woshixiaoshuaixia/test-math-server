@@ -1,6 +1,6 @@
-package cn.hrfax.test.math.server.config;
+package cn.jingfei.test.math.server.config;
 
-import cn.hrfax.test.math.server.service.MathService;
+import cn.jingfei.test.math.server.service.MathService;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.tool.method.MethodToolCallbackProvider;
 import org.springframework.context.annotation.Bean;
