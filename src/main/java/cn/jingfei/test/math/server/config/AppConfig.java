@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class AppConfig {
+
     @Bean
     public ToolCallbackProvider weatherTools(MathService mathService) {
         return MethodToolCallbackProvider.builder().toolObjects(mathService).build();
